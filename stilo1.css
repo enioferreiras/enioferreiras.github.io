@@ -1,0 +1,30 @@
+		p{
+		text-align: justify;
+		font-size: 15px;
+		font-family: "Verdana";
+		}
+		h1{
+			text-align: center;
+			color: blue;
+			font-family: "Verdana";
+		}
+		h3{
+			font-weight: bold;
+			color: blue;
+			font-family: "Verdana";
+		}
+		li{
+			font-size: 15px;
+			font-family: "Verdana";
+		}
+		hr{
+			color: blue;
+			background-color: blue;
+			height: 5px;
+		}
+		div{
+			
+		}
+		button{
+			color: blue; 
+		}
