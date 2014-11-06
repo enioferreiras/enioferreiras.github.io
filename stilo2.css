@@ -1,0 +1,24 @@
+
+		p{
+		text-align: justify;
+		font-size: 18px;
+		font-family: "Arial";
+		}
+		h1{
+			text-align: justify;
+			color: green;
+			font-family: "Arial";
+		}
+		h3{
+			font-weight: bold;
+			color: green;
+			font-family: "Arial";
+		}
+		li{
+			font-size: 18px;
+			font-family: "Arial";
+		}
+		button{
+			color: green;
+		}
+
