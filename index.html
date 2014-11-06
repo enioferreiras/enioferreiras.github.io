@@ -1,0 +1,96 @@
+<html>
+<meta charset="UTF-8">
+<head>
+	<script>
+	var estilo1 = "stilo1.css";
+	var estilo2 = "stilo2.css";
+	var estilo3 = "stilo3.css";
+	var atual = "stilo1.css";
+	var contador = 0;
+	
+	function MudarEstilo_Next(){
+		if(contador == 0){
+			atual = estilo1;
+			contador++;
+			linkCss.href="stilo1.css";	
+		}
+		else if(contador == 1){
+			atual = estilo2;
+			contador++;
+			linkCss.href="stilo2.css";
+		}
+		else if(contador == 2){
+			atual = estilo3;
+			linkCss.href="stilo3.css";
+			contador =0;
+		}
+	}
+    </script>
+
+
+	<link rel="stylesheet" type="text/css" href="stilo.css" id="linkCss">
+<title> Currículum Vitae </title>
+</head>
+<body>
+
+	<h1> Ênio Pereira Ferreira </h1>
+
+	<div>
+	<p>
+		Brasileiro, casado, 29 anos, residente na Rua Gérbera, 179, Apto 201, Novo Retiro, Esmeraldas – MG – CEP 35740-000, Celular: (31)9937-3707,
+		enio.ferreiras@gmail.com
+	</p>
+	</div>
+	<hr/>
+
+	<h3> Objetivo: </h3>
+
+	<p> Exercer atividade na área de desenvolvimento de software, buscando agregar conhecimento e adquirir experiência.	</p>
+
+	<hr/>
+
+	<h3> Qualidades </h3>
+	<ul>
+		<li> Bons conhecimentos em informática;</li>
+		<li> Dedicado;</li>
+		<li> Apto para novos conhecimentos e metodologia de trabalho </li>
+	</ul>
+	
+	<hr/>
+	
+	<h3> Habilidades: </h3>
+	<ul>
+		<li> Programação Java , Delphi, php e Android </li>
+		<li> Manutenção de computadores; </li>
+		<li>Configuração de sistema operacional Windows e pacote Microsoft Office; </li>
+	</ul>
+	
+	<hr/>
+	
+	<h3> Experiência Profissional:</h3>
+	<ul>
+		<li>Técnico em Informática (Emprego Atual). <br/>
+			Empresa: Sociedade Mineira de Cultura  <br/>
+			Início: Abril de 2011. </li>
+	</ul>
+	
+	<hr/>
+	
+	<h3> Formação: </h3>
+	<ul>
+		<li> Pós Graduando em Desenvolvimento de Aplicações Web – IEC PUC Minas. <br/>
+			 Início: Setembro de 2014 – Término Previsto: Dezembro de 2015 </li>
+		<li> Bacharel em Sistemas de Informação - PUC Minas. <br/>
+			 Início: Agosto de 2011 - Término: 2 de Agosto de 2014. </li>
+		<li> Curso Técnico em Informática – UTRAMIG-MG. <br/>
+			 Início: Agosto de 2004 - Término: Dezembro de 2005. </li>
+		<li> Ensino médio - Colégio Tiradentes da Polícia Militar de Minas Gerais. <br/>
+			 Início: Fevereiro 2001 - Término: Dezembro de 2003. </li>
+	</ul>
+	<center>
+		<button onclick="MudarEstilo_Next()" id="btn"> Mudar Estilo </button>
+	</center>
+	
+
+</body>
+</html>
