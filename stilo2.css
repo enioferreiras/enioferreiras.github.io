@@ -1,24 +1,69 @@
-
-		p{
-		text-align: justify;
-		font-size: 18px;
-		font-family: "Arial";
+		th{
+			
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+			
 		}
+		body{
+		margin-left: 75;
+		margin-right: 200;
+		}
+		
+		tfoot{
+			
+		}
+		.campos{
+		
+		}
+		tabelao{
+			width: 100%;
+			height: 40%;
+		}
+		
+		p,ul{
+		font-size: 40px;
+		font-family: "Kunstler Script";
+		text-align: justify;
+		left : 10;
+		
+		}
+		
 		h1{
-			text-align: justify;
-			color: green;
-			font-family: "Arial";
+			text-align: center;
+			color: #4876FF;
+			font-family: "Lucida Calligraphy";
+			font-size: 30px;
 		}
 		h3{
 			font-weight: bold;
-			color: green;
-			font-family: "Arial";
+			color: #4876FF;
+			text-align:center;
+			font-family: "Lucida Calligraphy";
+			font-size: 20px;
 		}
 		li{
-			font-size: 18px;
-			font-family: "Arial";
+			font-size: 40px;
+			font-family: "Kunstler Script";
 		}
 		button{
-			color: green;
+			
+			display: inline-block;
+			background-color: skyblue;
+			color: #444;
+			padding: 10px 20px;
+			text-decoration: none;
+			box-sizing: border-box;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			border: 0px;
+			
+			
 		}
-
+		.corpo{
+				background-image : url("caderno.jpg");
+				background-repeat: no-repeat;
+				-moz-background-size: 100% 100%;
+				-webkit-background-size: 100% 100%;
+				background-size: 100% 100%;
+		}

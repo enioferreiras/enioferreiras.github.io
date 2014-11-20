@@ -1,30 +1,53 @@
-		p{
+		th{
+			background-color: #0000FF;
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+		}
+		tfoot{
+			background-color: #4876FF;
+		}
+		.campos{
+			background-color :#BFEFFF;
+		}
+		tabelao{
+			border-color: #E0FFFF;	
+		}
+		
+		p,ul{
 		text-align: justify;
-		font-size: 15px;
-		font-family: "Verdana";
+		font-size: 18px;
+		font-family: "Arial";
+		
 		}
 		h1{
 			text-align: center;
-			color: blue;
-			font-family: "Verdana";
+			color: #F0FFFF;
+			font-family: "Arial";
 		}
 		h3{
 			font-weight: bold;
-			color: blue;
-			font-family: "Verdana";
-		}
-		li{
-			font-size: 15px;
-			font-family: "Verdana";
-		}
-		hr{
-			color: blue;
-			background-color: blue;
-			height: 5px;
-		}
-		div{
+			color: #4876FF;
+			font-family: "Arial";
+			
 			
 		}
+		li{
+			font-size: 18px;
+			font-family: "Arial";
+		}
 		button{
-			color: blue; 
+			
+			display: inline-block;
+			background-color: skyblue;
+			color: #444;
+			padding: 10px 20px;
+			text-decoration: none;
+			box-sizing: border-box;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			border: 0px;
+		}
+		.corpo{
+				background-color : #0000FF;
 		}
