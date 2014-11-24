@@ -1,0 +1,28 @@
+<html>
+<meta charset="UTF-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="stilo1.css" id="linkCss">
+	<head>
+		<title> Listagem de Currículos </title>
+	</head>
+	<body>
+		<table id="tabela" border=1>
+		<thead>
+		
+		<th id="nome">Nome</th>
+		<th id="curriculo">Mini-Curriculo</th>
+		<th id="link">Link</th>
+		</thead>
+		<tbody id="results"></tbody>
+		</table>
+	
+	</body>
+	<script>
+    $.getJSON("http://rarolabs.com.br:88/alunos.json", "json", function(data) {
+      $.each(data, function(key, val) {
+        $("#tabela tbody").append("<tr><td>"+val['nome']+"</td><td>"+val['mini_curriculo']+"</td><td><a href='"+val['link_html']+"'>ver</a></td></tr>")
+      });
+    });
+  </script>
+  
+</html>
